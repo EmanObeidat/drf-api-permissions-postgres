@@ -5,5 +5,6 @@ urlpatterns = [
 
     path('', SnackListView.as_view(),name='snack_list'),
     path('<int:pk>/', SnackDetailsView.as_view(),name='detail_list'),
+    
 
 ]
